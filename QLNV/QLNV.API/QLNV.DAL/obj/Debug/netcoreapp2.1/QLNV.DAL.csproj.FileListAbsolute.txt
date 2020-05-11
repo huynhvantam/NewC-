@@ -1,0 +1,8 @@
+C:\Users\tamhv\source\repos\QLNV\QLNV.API\QLNV.DAL\bin\Debug\netcoreapp2.1\QLNV.DAL.deps.json
+C:\Users\tamhv\source\repos\QLNV\QLNV.API\QLNV.DAL\bin\Debug\netcoreapp2.1\QLNV.DAL.dll
+C:\Users\tamhv\source\repos\QLNV\QLNV.API\QLNV.DAL\obj\Debug\netcoreapp2.1\QLNV.DAL.csprojAssemblyReference.cache
+C:\Users\tamhv\source\repos\QLNV\QLNV.API\QLNV.DAL\obj\Debug\netcoreapp2.1\QLNV.DAL.csproj.CoreCompileInputs.cache
+C:\Users\tamhv\source\repos\QLNV\QLNV.API\QLNV.DAL\obj\Debug\netcoreapp2.1\QLNV.DAL.AssemblyInfoInputs.cache
+C:\Users\tamhv\source\repos\QLNV\QLNV.API\QLNV.DAL\obj\Debug\netcoreapp2.1\QLNV.DAL.AssemblyInfo.cs
+C:\Users\tamhv\source\repos\QLNV\QLNV.API\QLNV.DAL\bin\Debug\netcoreapp2.1\QLNV.DAL.Interface.dll
+C:\Users\tamhv\source\repos\QLNV\QLNV.API\QLNV.DAL\bin\Debug\netcoreapp2.1\QLV.Domain.dll
