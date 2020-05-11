@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace QLV.Domain
+namespace QLV.Domain.Request
 {
     public class TaoPhongBan
     {

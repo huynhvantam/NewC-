@@ -1865,23 +1865,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tamhv\\.nuget\\packages\\": {},
+    "C:\\Users\\Yoh\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tamhv\\source\\repos\\QLNV\\QLNV.API\\QLNV.DAL\\QLNV.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL\\QLNV.DAL.csproj",
       "projectName": "QLNV.DAL",
-      "projectPath": "C:\\Users\\tamhv\\source\\repos\\QLNV\\QLNV.API\\QLNV.DAL\\QLNV.DAL.csproj",
-      "packagesPath": "C:\\Users\\tamhv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tamhv\\source\\repos\\QLNV\\QLNV.API\\QLNV.DAL\\obj\\",
+      "projectPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL\\QLNV.DAL.csproj",
+      "packagesPath": "C:\\Users\\Yoh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\tamhv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Yoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1894,8 +1894,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\tamhv\\source\\repos\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj": {
-              "projectPath": "C:\\Users\\tamhv\\source\\repos\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj"
+            "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj": {
+              "projectPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj"
             }
           }
         }

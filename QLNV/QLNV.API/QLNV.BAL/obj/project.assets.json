@@ -207,6 +207,42 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "QLNV.BAL.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "QLV.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/QLNV.BAL.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QLNV.BAL.Interface.dll": {}
+        }
+      },
+      "QLNV.DAL.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "QLV.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/QLNV.DAL.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QLNV.DAL.Interface.dll": {}
+        }
+      },
+      "QLV.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/QLV.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QLV.Domain.dll": {}
+        }
       }
     }
   },
@@ -680,31 +716,48 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "QLNV.BAL.Interface/1.0.0": {
+      "type": "project",
+      "path": "../QLNV.BAL.Interface/QLNV.BAL.Interface.csproj",
+      "msbuildProject": "../QLNV.BAL.Interface/QLNV.BAL.Interface.csproj"
+    },
+    "QLNV.DAL.Interface/1.0.0": {
+      "type": "project",
+      "path": "../QLNV.DAL.Interface/QLNV.DAL.Interface.csproj",
+      "msbuildProject": "../QLNV.DAL.Interface/QLNV.DAL.Interface.csproj"
+    },
+    "QLV.Domain/1.0.0": {
+      "type": "project",
+      "path": "../QLV.Domain/QLV.Domain.csproj",
+      "msbuildProject": "../QLV.Domain/QLV.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "QLNV.BAL.Interface >= 1.0.0",
+      "QLNV.DAL.Interface >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tamhv\\.nuget\\packages\\": {},
+    "C:\\Users\\Yoh\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tamhv\\source\\repos\\QLNV\\QLNV.API\\QLNV.BAL\\QLNV.BAL.csproj",
+      "projectUniqueName": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL\\QLNV.BAL.csproj",
       "projectName": "QLNV.BAL",
-      "projectPath": "C:\\Users\\tamhv\\source\\repos\\QLNV\\QLNV.API\\QLNV.BAL\\QLNV.BAL.csproj",
-      "packagesPath": "C:\\Users\\tamhv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tamhv\\source\\repos\\QLNV\\QLNV.API\\QLNV.BAL\\obj\\",
+      "projectPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL\\QLNV.BAL.csproj",
+      "packagesPath": "C:\\Users\\Yoh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\tamhv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Yoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -716,7 +769,14 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj": {
+              "projectPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj"
+            },
+            "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj": {
+              "projectPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,12 @@
+C:\Users\Yoh\Documents\GitHub\NewC-\QLNV\QLNV.API\QLNV.DAL.Interface\bin\Debug\netcoreapp2.1\QLNV.DAL.Interface.deps.json
+C:\Users\Yoh\Documents\GitHub\NewC-\QLNV\QLNV.API\QLNV.DAL.Interface\bin\Debug\netcoreapp2.1\QLNV.DAL.Interface.dll
+C:\Users\Yoh\Documents\GitHub\NewC-\QLNV\QLNV.API\QLNV.DAL.Interface\bin\Debug\netcoreapp2.1\QLNV.DAL.Interface.pdb
+C:\Users\Yoh\Documents\GitHub\NewC-\QLNV\QLNV.API\QLNV.DAL.Interface\bin\Debug\netcoreapp2.1\QLV.Domain.dll
+C:\Users\Yoh\Documents\GitHub\NewC-\QLNV\QLNV.API\QLNV.DAL.Interface\bin\Debug\netcoreapp2.1\QLV.Domain.pdb
+C:\Users\Yoh\Documents\GitHub\NewC-\QLNV\QLNV.API\QLNV.DAL.Interface\obj\Debug\netcoreapp2.1\QLNV.DAL.Interface.csprojAssemblyReference.cache
+C:\Users\Yoh\Documents\GitHub\NewC-\QLNV\QLNV.API\QLNV.DAL.Interface\obj\Debug\netcoreapp2.1\QLNV.DAL.Interface.csproj.CoreCompileInputs.cache
+C:\Users\Yoh\Documents\GitHub\NewC-\QLNV\QLNV.API\QLNV.DAL.Interface\obj\Debug\netcoreapp2.1\QLNV.DAL.Interface.AssemblyInfoInputs.cache
+C:\Users\Yoh\Documents\GitHub\NewC-\QLNV\QLNV.API\QLNV.DAL.Interface\obj\Debug\netcoreapp2.1\QLNV.DAL.Interface.AssemblyInfo.cs
+C:\Users\Yoh\Documents\GitHub\NewC-\QLNV\QLNV.API\QLNV.DAL.Interface\obj\Debug\netcoreapp2.1\QLNV.DAL.Interface.csproj.CopyComplete
+C:\Users\Yoh\Documents\GitHub\NewC-\QLNV\QLNV.API\QLNV.DAL.Interface\obj\Debug\netcoreapp2.1\QLNV.DAL.Interface.dll
+C:\Users\Yoh\Documents\GitHub\NewC-\QLNV\QLNV.API\QLNV.DAL.Interface\obj\Debug\netcoreapp2.1\QLNV.DAL.Interface.pdb
