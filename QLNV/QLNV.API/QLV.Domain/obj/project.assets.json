@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yoh\\.nuget\\packages\\": {},
+    "C:\\Users\\tamhv\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj",
       "projectName": "QLV.Domain",
-      "projectPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj",
-      "packagesPath": "C:\\Users\\Yoh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\obj\\",
+      "projectPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj",
+      "packagesPath": "C:\\Users\\tamhv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Yoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tamhv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

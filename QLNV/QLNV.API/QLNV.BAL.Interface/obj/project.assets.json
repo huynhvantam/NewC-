@@ -704,23 +704,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yoh\\.nuget\\packages\\": {},
+    "C:\\Users\\tamhv\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj",
+      "projectUniqueName": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj",
       "projectName": "QLNV.BAL.Interface",
-      "projectPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj",
-      "packagesPath": "C:\\Users\\Yoh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\obj\\",
+      "projectPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj",
+      "packagesPath": "C:\\Users\\tamhv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Yoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tamhv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -733,8 +733,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj": {
-              "projectPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj"
+            "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj": {
+              "projectPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj"
             }
           }
         }
