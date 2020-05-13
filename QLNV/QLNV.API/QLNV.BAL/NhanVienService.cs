@@ -15,14 +15,14 @@ namespace QLNV.BAL
         {
             _nhanVienRepository = nhanVienRepository;
         }
-        public IList<NhanVien> DachSachNhanVienTheoPhongBan(int phongbanId)
+        public IList<NhanVien> DanhSachNhanVienTheoPhongBan(int phongbanId)
         {
            return _nhanVienRepository.DanhSachNhanVienTheoPhongBan(phongbanId);
         }
 
         public NhanVien LayNhanVienTheoID(int maNV)
         {
-            return _nhanVienRepository.LayNhanVienTheoId(maNV);
+            return _nhanVienRepository.LayNhanVienTheoID(maNV);
         }
 
         public int SuaNhanVien(SuaNhanVien request)

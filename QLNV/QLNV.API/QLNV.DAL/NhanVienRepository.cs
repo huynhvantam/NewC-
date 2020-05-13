@@ -12,19 +12,23 @@ namespace QLNV.DAL
 {
     public class NhanVienRepository : BaseRepository, INhanVienRepository
     {
-              public IList<NhanVien> DanhSachNhanVienTheoPhongBan(int PhongBanId)
+        public IList<NhanVien> DanhSachNhanVienTheoPhongBan(int PhongBanId)
         {
-            IList<NhanVien> danhSachNhanVienTheoPhongBan = SqlMapper.Query<NhanVien>(con, "DanhSachNhanVienTheoPhongBan", commandType: CommandType.StoredProcedure).ToList();
+            DynamicParameters parameters = new DynamicParameters();
+            parameters.Add("@PhongBanId", PhongBanId);
+            IList<NhanVien> danhSachNhanVienTheoPhongBan = SqlMapper.Query<NhanVien>(con, "DanhSachNhanVienTheoPhongBan", parameters, commandType: CommandType.StoredProcedure).ToList();
             return danhSachNhanVienTheoPhongBan;
         }
 
-        public NhanVien LayNhanVienTheoId(int maNV)
+        public NhanVien LayNhanVienTheoID(int maNV)
         {
             DynamicParameters parameters = new DynamicParameters();
-            parameters.Add("@MaNV", maNV);
+            parameters.Add("@maNV", maNV);
             NhanVien nhanVien = SqlMapper.Query<NhanVien>(con, "LayNhanVienTheoMaNV", parameters, commandType: CommandType.StoredProcedure).FirstOrDefault();
             return nhanVien;
+
         }
+
 
         public int SuaNhanVien(SuaNhanVien request)
         {
@@ -82,7 +86,7 @@ namespace QLNV.DAL
             catch (Exception ex)
             {
 
-                throw ex ;
+                throw ex;
             }
         }
     }

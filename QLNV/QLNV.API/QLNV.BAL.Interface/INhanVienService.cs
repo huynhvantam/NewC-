@@ -8,7 +8,7 @@ namespace QLNV.BAL.Interface
 {
   public  interface INhanVienService
     {
-        IList<NhanVien> DachSachNhanVienTheoPhongBan(int phongbanId);
+        IList<NhanVien> DanhSachNhanVienTheoPhongBan(int phongBanId);
         NhanVien LayNhanVienTheoID(int maNV);
         int TaoNhanVien(TaoNhanVien request);
         int SuaNhanVien(SuaNhanVien request);

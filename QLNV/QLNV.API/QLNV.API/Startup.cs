@@ -32,6 +32,8 @@ namespace QLNV.API
             services.AddMvc();
             services.AddTransient<IPhongBanRepository, PhongBanRepository>();
             services.AddTransient<IPhongBanService, PhongBanService>();
+            services.AddTransient<INhanVienRepository, NhanVienRepository>();
+            services.AddTransient<INhanVienService, NhanVienService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
