@@ -47,15 +47,38 @@ namespace QLNV.Web.Controllers
 
         }
 
-        public IActionResult Privacy()
+        public IActionResult TaoPhongBan()
         {
+            TempData["ThanhCong"] = null;
             return View();
         }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        public IActionResult TaoPhongBan(TaoPhongBan model)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            int ketQua = 0;
+            var url = $"{Common.Common.ApiUrl}/phongban/taophongban";
+
+            HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create(url);
+            httpWebRequest.ContentType = "application/json";
+            httpWebRequest.Method = "POST";
+            using (var streamWrite = new StreamWriter(httpWebRequest.GetRequestStream()))
+            {
+                var json = JsonConvert.SerializeObject(model);
+                streamWrite.Write(json);
+            }
+            var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+
+            {
+                using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+                {
+                    var resKetQua = streamReader.ReadToEnd();
+                    ketQua = int.Parse(resKetQua);
+                }
+                if (ketQua > 0)
+                {
+                    TempData["ThanhCong"] = "TeamData-đã tạo thành công";
+                }
+                return View(new TaoPhongBan() { });
+            }
         }
     }
 }

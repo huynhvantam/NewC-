@@ -28,3 +28,4 @@ C:\Users\tamhv\Documents\C\NewC-\QLNV.Web\QLNV.Web\QLNV.Web\obj\Debug\netcoreapp
 C:\Users\tamhv\Documents\C\NewC-\QLNV.Web\QLNV.Web\QLNV.Web\obj\Debug\netcoreapp2.2\QLNV.Web.csproj.CopyComplete
 C:\Users\tamhv\Documents\C\NewC-\QLNV.Web\QLNV.Web\QLNV.Web\obj\Debug\netcoreapp2.2\Razor\Views\PhongBan\Index.g.cshtml.cs
 C:\Users\tamhv\Documents\C\NewC-\QLNV.Web\QLNV.Web\QLNV.Web\obj\Debug\netcoreapp2.2\Razor\Views\PhongBan\Privacy.g.cshtml.cs
+C:\Users\tamhv\Documents\C\NewC-\QLNV.Web\QLNV.Web\QLNV.Web\obj\Debug\netcoreapp2.2\Razor\Views\PhongBan\TaoPhongBan.g.cshtml.cs
