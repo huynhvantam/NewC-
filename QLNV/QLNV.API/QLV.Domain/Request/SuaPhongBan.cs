@@ -4,10 +4,10 @@ using System.Text;
 
 namespace QLV.Domain.Request
 {
-   public class SuaPhongBan
+    public class SuaPhongBan
     {
         public int Id { get; set; }
         public string MaPhongBan { get; set; }
-        public string TenPhong { get; set; }
+        public string TenPhongBan { get; set; }
     }
 }

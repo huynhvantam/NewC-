@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL\\QLNV.BAL.csproj": {}
+    "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL\\QLNV.BAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj": {
+    "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj",
+        "projectUniqueName": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj",
         "projectName": "QLNV.BAL.Interface",
-        "projectPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj",
-        "packagesPath": "C:\\Users\\Yoh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\obj\\",
+        "projectPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj",
+        "packagesPath": "C:\\Users\\tamhv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Yoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tamhv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj": {
-                "projectPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj"
+              "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj": {
+                "projectPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj"
               }
             }
           }
@@ -53,27 +53,33 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL\\QLNV.BAL.csproj": {
+    "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL\\QLNV.BAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL\\QLNV.BAL.csproj",
+        "projectUniqueName": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL\\QLNV.BAL.csproj",
         "projectName": "QLNV.BAL",
-        "projectPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL\\QLNV.BAL.csproj",
-        "packagesPath": "C:\\Users\\Yoh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL\\obj\\",
+        "projectPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL\\QLNV.BAL.csproj",
+        "packagesPath": "C:\\Users\\tamhv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Yoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tamhv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,11 +92,11 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj": {
-                "projectPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj"
+              "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj": {
+                "projectPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj"
               },
-              "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj": {
-                "projectPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj"
+              "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj": {
+                "projectPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj"
               }
             }
           }
@@ -112,27 +118,33 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj": {
+    "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj",
+        "projectUniqueName": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj",
         "projectName": "QLNV.DAL.Interface",
-        "projectPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj",
-        "packagesPath": "C:\\Users\\Yoh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\obj\\",
+        "projectPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj",
+        "packagesPath": "C:\\Users\\tamhv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Yoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tamhv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -145,8 +157,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj": {
-                "projectPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj"
+              "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj": {
+                "projectPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj"
               }
             }
           }
@@ -168,27 +180,33 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj": {
+    "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj",
         "projectName": "QLV.Domain",
-        "projectPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj",
-        "packagesPath": "C:\\Users\\Yoh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yoh\\Documents\\GitHub\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\obj\\",
+        "projectPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj",
+        "packagesPath": "C:\\Users\\tamhv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Yoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tamhv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -220,10 +238,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

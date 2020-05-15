@@ -1,0 +1,74 @@
+﻿@model IEnumerable<QLNV.Web.Models.NhanVien.NhanVienView>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <h1> @ViewData["Title"] - @ViewBag.TenPhongBan</h1>
+
+    <p>
+        <a class="btn btn-primary" asp-controller="PhongBan" asp-action="Index">Danh Sách Phòng Ban</a>
+        <a class="btn btn-primary" asp-controller="NhanVien" asp-action="TaoNhanVien">Create New</a>
+    </p>
+<table class ="table table-striped table-bordered table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MaNV)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ho)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ten)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DiaChi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DienThoai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhongBanId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaNV)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ho)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ten)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DiaChi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DienThoai)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhongBanId)
+                </td>
+                <td>
+                    @Html.ActionLink("Sửa NV", "SuaNhanVien", "NhanVien",new { /* id=item.PrimaryKey */ } , new { @class = "btn btn-success" })
+
+                    @Html.ActionLink("Xóa", "XoaNhanVien", "NhanVien", new { /* id=item.PrimaryKey */ }, new { @class = "btn btn-danger", onclick = "return confirm('Bạn muốn xóa?')" })
+                </td>
+            </tr>
+        }
+    </tbody>
+    </table>

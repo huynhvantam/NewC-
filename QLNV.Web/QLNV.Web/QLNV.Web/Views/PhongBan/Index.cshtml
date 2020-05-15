@@ -11,7 +11,7 @@
     <a class="btn btn-primary" asp-controller="PhongBan" asp-action="TaoPhongBan">action-V-Index-Tạo Phòng Ban</a>
 </p>
 <table class="table table-striped table-bordered table-hover">
-    <thead>
+    <thead class="thead-dark">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.ID)
@@ -46,9 +46,11 @@
                 </td>
                 <td>
                     @*Gồm 3 tham số tên, biến, Controller nào, new ...*@
-                    @Html.ActionLink("SuaNV", "Sua", "PhongBan", new { /* id=item.PrimaryKey */ }, new { @class = "btn btn-warning" })
-                    @Html.ActionLink("Nhan Vien", "NhanVien", "NhanVien", new { /* id=item.PrimaryKey */ }, new { @class = "btn btn-success" })
-                    @Html.ActionLink("Xoa NV", "Xoa", "PhongBan", new { /* id=item.PrimaryKey */ }, new { @class = "btn btn-danger" })
+                    @Html.ActionLink("V>PB>Index>Sua", "SuaPhongBan", "PhongBan", new { id = item.ID }, new { @class = "btn btn-warning" })
+                    @Html.ActionLink("Nhân Viên", "Index", "NhanVien", new { id=item.ID }, new { @class = "btn btn-success" })
+                    @Html.ActionLink("Xóa", "XoaPhongBan", "PhongBan",
+                                                       new { id=item.ID  },
+                                                       new { @class = "btn btn-danger",onclick ="return confirm('Bạn muốn xóa?')" })
                 </td>
             </tr>
         }

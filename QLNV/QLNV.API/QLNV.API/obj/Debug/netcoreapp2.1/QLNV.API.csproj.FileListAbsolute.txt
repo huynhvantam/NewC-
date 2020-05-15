@@ -48,3 +48,7 @@ C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLNV.API\obj\Debug\netcoreapp2.1\
 C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLNV.API\obj\Debug\netcoreapp2.1\QLNV.API.csproj.CopyComplete
 C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLNV.API\obj\Debug\netcoreapp2.1\QLNV.API.dll
 C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLNV.API\obj\Debug\netcoreapp2.1\QLNV.API.pdb
+C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLNV.API\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLNV.API\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLNV.API\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLNV.API\obj\Debug\netcoreapp2.1\QLNV.API.genruntimeconfig.cache

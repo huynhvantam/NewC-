@@ -31,7 +31,7 @@ namespace QLNV.API.Controllers
         {
             return _phongBanService.DanhSachPhongBan();
         }
-        
+
         /// <summary>
         /// bbbbbbbbb
         /// </summary>
@@ -39,7 +39,7 @@ namespace QLNV.API.Controllers
         /// <returns></returns>
         // GET: api/PhongBan/5
         [HttpGet]
-        [Route("api/phongban/danhsachphongban/{id}")]
+        [Route("api/phongban/layphongban/{id}")]
         public PhongBan LayPhongBanID(int id)
         {
             return _phongBanService.LayPhongBanID(id);

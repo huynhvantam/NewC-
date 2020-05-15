@@ -35,14 +35,14 @@ namespace QLNV.DAL
                 DynamicParameters parameters = new DynamicParameters();
                 parameters.Add("@Id", request.Id);
                 parameters.Add("@MaPhongBan", request.MaPhongBan);
-                parameters.Add("@TenPhongBan", request.TenPhong);
+                parameters.Add("@TenPhongBan", request.TenPhongBan);
                 var id = SqlMapper.ExecuteScalar<int>(con, "SuaPhongBan", param: parameters, commandType: CommandType.StoredProcedure);
                 return id;
             }
             catch (Exception ex)
             {
-
-                throw ex;
+                //throw ex;
+                return 0;
             }
         }
 
@@ -53,7 +53,7 @@ namespace QLNV.DAL
                 DynamicParameters parameters = new DynamicParameters();
 
                 parameters.Add("@MaPhongBan", request.MaPhongBan);
-                parameters.Add("@TenPhongBan", request.TenPhong);
+                parameters.Add("@TenPhongBan", request.TenPhongBan);
                 var id = SqlMapper.ExecuteScalar<int>(con, "TaoPhongBan", param: parameters, commandType: CommandType.StoredProcedure);
                 return id;
             }
