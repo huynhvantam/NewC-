@@ -11,13 +11,13 @@ namespace QLNV.BAL
     public class NhanVienService : INhanVienService
     {
         private INhanVienRepository _nhanVienRepository;
-        public NhanVienService (INhanVienRepository nhanVienRepository)
+        public NhanVienService(INhanVienRepository nhanVienRepository)
         {
             _nhanVienRepository = nhanVienRepository;
         }
         public IList<NhanVien> DanhSachNhanVienTheoPhongBan(int phongbanId)
         {
-           return _nhanVienRepository.DanhSachNhanVienTheoPhongBan(phongbanId);
+            return _nhanVienRepository.DanhSachNhanVienTheoPhongBan(phongbanId);
         }
 
         public NhanVien LayNhanVienTheoID(int maNV)

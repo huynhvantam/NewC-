@@ -13,7 +13,9 @@ namespace QLNV.DAL
         protected IDbConnection con;
         public BaseRepository()
         {
-            string connectString = @"Data Source=H-AITD202003001\SQLEXPRESS;Initial Catalog=QuanLyNhanVien;Integrated Security=True";
+            //hello world
+            string connectString = @" Data Source = YOH\SQLEXPRESS; Initial Catalog = QuanLyNhanVien; Integrated Security = True";
+            //string connectString = @"Data Source=H-AITD202003001\SQLEXPRESS;Initial Catalog=QuanLyNhanVien;Integrated Security=True";
             con = new SqlConnection(connectString);
         }
     }

@@ -22,3 +22,15 @@ C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLNV.BAL.Interface\obj\Debug\netc
 C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLNV.BAL.Interface\obj\Debug\netcoreapp2.1\QLNV.BAL.Interface.csproj.CopyComplete
 C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLNV.BAL.Interface\obj\Debug\netcoreapp2.1\QLNV.BAL.Interface.dll
 C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLNV.BAL.Interface\obj\Debug\netcoreapp2.1\QLNV.BAL.Interface.pdb
+H:\Git\NewC-\QLNV\QLNV.API\QLNV.BAL.Interface\bin\Debug\netcoreapp2.1\QLNV.BAL.Interface.deps.json
+H:\Git\NewC-\QLNV\QLNV.API\QLNV.BAL.Interface\bin\Debug\netcoreapp2.1\QLNV.BAL.Interface.dll
+H:\Git\NewC-\QLNV\QLNV.API\QLNV.BAL.Interface\bin\Debug\netcoreapp2.1\QLNV.BAL.Interface.pdb
+H:\Git\NewC-\QLNV\QLNV.API\QLNV.BAL.Interface\bin\Debug\netcoreapp2.1\QLV.Domain.dll
+H:\Git\NewC-\QLNV\QLNV.API\QLNV.BAL.Interface\bin\Debug\netcoreapp2.1\QLV.Domain.pdb
+H:\Git\NewC-\QLNV\QLNV.API\QLNV.BAL.Interface\obj\Debug\netcoreapp2.1\QLNV.BAL.Interface.csprojAssemblyReference.cache
+H:\Git\NewC-\QLNV\QLNV.API\QLNV.BAL.Interface\obj\Debug\netcoreapp2.1\QLNV.BAL.Interface.csproj.CoreCompileInputs.cache
+H:\Git\NewC-\QLNV\QLNV.API\QLNV.BAL.Interface\obj\Debug\netcoreapp2.1\QLNV.BAL.Interface.AssemblyInfoInputs.cache
+H:\Git\NewC-\QLNV\QLNV.API\QLNV.BAL.Interface\obj\Debug\netcoreapp2.1\QLNV.BAL.Interface.AssemblyInfo.cs
+H:\Git\NewC-\QLNV\QLNV.API\QLNV.BAL.Interface\obj\Debug\netcoreapp2.1\QLNV.BAL.Interface.csproj.CopyComplete
+H:\Git\NewC-\QLNV\QLNV.API\QLNV.BAL.Interface\obj\Debug\netcoreapp2.1\QLNV.BAL.Interface.dll
+H:\Git\NewC-\QLNV\QLNV.API\QLNV.BAL.Interface\obj\Debug\netcoreapp2.1\QLNV.BAL.Interface.pdb
