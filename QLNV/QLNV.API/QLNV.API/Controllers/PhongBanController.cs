@@ -75,7 +75,7 @@ namespace QLNV.API.Controllers
         /// <returns></returns>
         // DELETE: api/ApiWithActions/5
         [HttpDelete]
-        [Route("api/phongban/xoaphongban/{id}")]
+        [Route(" /{id}")]
         public bool XoaPhongBan(int id)
         {
             return _phongBanService.XoaPhongBan(id);

@@ -1162,7 +1162,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Razor.Design/2.1.2": {
+      "Microsoft.AspNetCore.Razor.Design/2.2.0": {
         "type": "package",
         "build": {
           "build/netstandard2.0/Microsoft.AspNetCore.Razor.Design.props": {}
@@ -5729,10 +5729,10 @@
         "microsoft.aspnetcore.razor.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Razor.Design/2.1.2": {
-      "sha512": "fe1+dpy+eM4IX1zodsvkihO1Spuj0NecfStWzvkYoMo7/ziOsqSv4vFK36ZpBfHa4gpdCEwaU46EPzdq+ZDYhQ==",
+    "Microsoft.AspNetCore.Razor.Design/2.2.0": {
+      "sha512": "VLWK+ZtMMNukY6XjxYHc7mz33vkquoEzQJHm/LCF5REVxIaexLr+UTImljRRJBdUDJluDAQwU+59IX0rFDfURA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.razor.design/2.1.2",
+      "path": "microsoft.aspnetcore.razor.design/2.2.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -5740,10 +5740,8 @@
         "build/netstandard2.0/Microsoft.AspNetCore.Razor.Design.CodeGeneration.targets",
         "build/netstandard2.0/Microsoft.AspNetCore.Razor.Design.props",
         "buildMultiTargeting/Microsoft.AspNetCore.Razor.Design.props",
-        "microsoft.aspnetcore.razor.design.2.1.2.nupkg.sha512",
+        "microsoft.aspnetcore.razor.design.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.razor.design.nuspec",
-        "tasks/net46/Microsoft.AspNetCore.Razor.Tasks.dll",
-        "tasks/netstandard2.0/Microsoft.AspNetCore.Razor.Tasks.dll",
         "tools/Microsoft.AspNetCore.Razor.Language.dll",
         "tools/Microsoft.CodeAnalysis.CSharp.dll",
         "tools/Microsoft.CodeAnalysis.Razor.dll",
@@ -12926,7 +12924,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
-      "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
+      "Microsoft.AspNetCore.Razor >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.10",
       "QLNV.BAL >= 1.0.0",
@@ -12937,23 +12935,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yoh\\.nuget\\packages\\": {},
+    "C:\\Users\\tamhv\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Git\\NewC-\\QLNV\\QLNV.API\\QLNV.API\\QLNV.API.csproj",
+      "projectUniqueName": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.API\\QLNV.API.csproj",
       "projectName": "QLNV.API",
-      "projectPath": "H:\\Git\\NewC-\\QLNV\\QLNV.API\\QLNV.API\\QLNV.API.csproj",
-      "packagesPath": "C:\\Users\\Yoh\\.nuget\\packages\\",
-      "outputPath": "H:\\Git\\NewC-\\QLNV\\QLNV.API\\QLNV.API\\obj\\",
+      "projectPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.API\\QLNV.API.csproj",
+      "packagesPath": "C:\\Users\\tamhv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Yoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tamhv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12966,20 +12964,20 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "H:\\Git\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj": {
-              "projectPath": "H:\\Git\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj"
+            "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj": {
+              "projectPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj"
             },
-            "H:\\Git\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL\\QLNV.BAL.csproj": {
-              "projectPath": "H:\\Git\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL\\QLNV.BAL.csproj"
+            "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL\\QLNV.BAL.csproj": {
+              "projectPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.BAL\\QLNV.BAL.csproj"
             },
-            "H:\\Git\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj": {
-              "projectPath": "H:\\Git\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj"
+            "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj": {
+              "projectPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj"
             },
-            "H:\\Git\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL\\QLNV.DAL.csproj": {
-              "projectPath": "H:\\Git\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL\\QLNV.DAL.csproj"
+            "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL\\QLNV.DAL.csproj": {
+              "projectPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLNV.DAL\\QLNV.DAL.csproj"
             },
-            "H:\\Git\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj": {
-              "projectPath": "H:\\Git\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj"
+            "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj": {
+              "projectPath": "C:\\Users\\tamhv\\Documents\\C\\NewC-\\QLNV\\QLNV.API\\QLV.Domain\\QLV.Domain.csproj"
             }
           }
         }
@@ -12999,10 +12997,9 @@
             "version": "[2.2.0, )",
             "autoReferenced": true
           },
-          "Microsoft.AspNetCore.Razor.Design": {
-            "suppressParent": "All",
+          "Microsoft.AspNetCore.Razor": {
             "target": "Package",
-            "version": "[2.1.2, )"
+            "version": "[2.2.0, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
@@ -13016,22 +13013,17 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.AspNetCore.Razor.Design from 2.2.0 to 2.1.2. Reference the package directly from the project to select a different version. \r\n QLNV.API -> Microsoft.AspNetCore.App 2.2.0 -> Microsoft.AspNetCore.Razor.Design (>= 2.2.0 && < 2.3.0) \r\n QLNV.API -> Microsoft.AspNetCore.Razor.Design (>= 2.1.2)",
-      "libraryId": "Microsoft.AspNetCore.Razor.Design",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.2"
-      ]
-    }
-  ]
+  }
 }

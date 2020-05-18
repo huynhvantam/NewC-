@@ -28,12 +28,9 @@ namespace QLNV.Web.Models.NhanVien
         [StringLength(maximumLength: 50, MinimumLength = 1, ErrorMessage = " Điện thoại phải có 50 ký tự")]
         public string DienThoai { get; set; }
         [Display(Name = "Email")]
-        [Required(ErrorMessage = "Required Bạn phải nhập Email")]
-        [StringLength(maximumLength: 50, MinimumLength = 1, ErrorMessage = "Email phải có 50 ký tự")]
+        [EmailAddress(ErrorMessage ="Email không đúng định dạng")]
         public string Email { get; set; }
         [Display(Name = "Phòng ban ID")]
-        [Required(ErrorMessage = "Required Bạn phải nhập Phòng ban ID")]
-        [StringLength(maximumLength: 50, MinimumLength = 1, ErrorMessage = "phải có 50 ký tự")]
         public int PhongBanId { get; set; }
     }
 }

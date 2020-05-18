@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "QLNV.DAL.Interface/1.0.0": {
+        "dependencies": {
+          "QLV.Domain": "1.0.0"
+        },
+        "runtime": {
+          "QLNV.DAL.Interface.dll": {}
+        }
+      },
+      "QLV.Domain/1.0.0": {
+        "runtime": {
+          "QLV.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QLNV.DAL.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QLV.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

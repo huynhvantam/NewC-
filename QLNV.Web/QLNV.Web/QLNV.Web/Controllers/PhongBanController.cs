@@ -181,7 +181,7 @@ namespace QLNV.Web.Controllers
 
 
 
-            return RedirectToAction();
+            return RedirectToAction("Index","PhongBan");
         }
     }
 }

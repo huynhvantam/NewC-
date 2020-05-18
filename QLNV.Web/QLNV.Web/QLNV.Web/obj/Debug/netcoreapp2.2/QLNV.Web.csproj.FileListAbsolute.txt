@@ -36,3 +36,4 @@ C:\Users\tamhv\Documents\C\NewC-\QLNV.Web\QLNV.Web\QLNV.Web\obj\Debug\netcoreapp
 C:\Users\tamhv\Documents\C\NewC-\QLNV.Web\QLNV.Web\QLNV.Web\obj\Debug\netcoreapp2.2\QLNV.Web.genruntimeconfig.cache
 C:\Users\tamhv\Documents\C\NewC-\QLNV.Web\QLNV.Web\QLNV.Web\obj\Debug\netcoreapp2.2\Razor\Views\NhanVien\Index.cshtml.g.cs
 C:\Users\tamhv\Documents\C\NewC-\QLNV.Web\QLNV.Web\QLNV.Web\obj\Debug\netcoreapp2.2\Razor\Views\NhanVien\TaoNhanVien.cshtml.g.cs
+C:\Users\tamhv\Documents\C\NewC-\QLNV.Web\QLNV.Web\QLNV.Web\obj\Debug\netcoreapp2.2\Razor\Views\NhanVien\SuaNhanVien.cshtml.g.cs

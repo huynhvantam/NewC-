@@ -1,0 +1,9 @@
+C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLV.Domain\bin\Debug\netcoreapp2.2\QLV.Domain.deps.json
+C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLV.Domain\bin\Debug\netcoreapp2.2\QLV.Domain.dll
+C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLV.Domain\bin\Debug\netcoreapp2.2\QLV.Domain.pdb
+C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLV.Domain\obj\Debug\netcoreapp2.2\QLV.Domain.csprojAssemblyReference.cache
+C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLV.Domain\obj\Debug\netcoreapp2.2\QLV.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLV.Domain\obj\Debug\netcoreapp2.2\QLV.Domain.AssemblyInfoInputs.cache
+C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLV.Domain\obj\Debug\netcoreapp2.2\QLV.Domain.AssemblyInfo.cs
+C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLV.Domain\obj\Debug\netcoreapp2.2\QLV.Domain.dll
+C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLV.Domain\obj\Debug\netcoreapp2.2\QLV.Domain.pdb
