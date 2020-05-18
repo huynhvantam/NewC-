@@ -80,7 +80,7 @@ namespace QLNV.DAL
             {
                 DynamicParameters parameters = new DynamicParameters();
                 parameters.Add("@MaNV", maNV);
-                var result = SqlMapper.ExecuteScalar<bool>(con, "XoaNhaVien", param: parameters, commandType: CommandType.StoredProcedure);
+                var result = SqlMapper.ExecuteScalar<bool>(con, "XoaNhanVien", param: parameters, commandType: CommandType.StoredProcedure);
                 return result;
             }
             catch (Exception ex)

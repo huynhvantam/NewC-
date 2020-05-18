@@ -16,3 +16,12 @@ C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLV.Domain\obj\Debug\netcoreapp2.
 C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLV.Domain\obj\Debug\netcoreapp2.1\QLV.Domain.AssemblyInfo.cs
 C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLV.Domain\obj\Debug\netcoreapp2.1\QLV.Domain.dll
 C:\Users\tamhv\Documents\C\NewC-\QLNV\QLNV.API\QLV.Domain\obj\Debug\netcoreapp2.1\QLV.Domain.pdb
+H:\Git\NewC-\QLNV\QLNV.API\QLV.Domain\bin\Debug\netcoreapp2.1\QLV.Domain.deps.json
+H:\Git\NewC-\QLNV\QLNV.API\QLV.Domain\bin\Debug\netcoreapp2.1\QLV.Domain.dll
+H:\Git\NewC-\QLNV\QLNV.API\QLV.Domain\bin\Debug\netcoreapp2.1\QLV.Domain.pdb
+H:\Git\NewC-\QLNV\QLNV.API\QLV.Domain\obj\Debug\netcoreapp2.1\QLV.Domain.csprojAssemblyReference.cache
+H:\Git\NewC-\QLNV\QLNV.API\QLV.Domain\obj\Debug\netcoreapp2.1\QLV.Domain.csproj.CoreCompileInputs.cache
+H:\Git\NewC-\QLNV\QLNV.API\QLV.Domain\obj\Debug\netcoreapp2.1\QLV.Domain.AssemblyInfoInputs.cache
+H:\Git\NewC-\QLNV\QLNV.API\QLV.Domain\obj\Debug\netcoreapp2.1\QLV.Domain.AssemblyInfo.cs
+H:\Git\NewC-\QLNV\QLNV.API\QLV.Domain\obj\Debug\netcoreapp2.1\QLV.Domain.dll
+H:\Git\NewC-\QLNV\QLNV.API\QLV.Domain\obj\Debug\netcoreapp2.1\QLV.Domain.pdb
