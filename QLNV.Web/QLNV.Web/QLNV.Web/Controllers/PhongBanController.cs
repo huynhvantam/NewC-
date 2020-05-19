@@ -151,6 +151,7 @@ namespace QLNV.Web.Controllers
             return View(new SuaPhongBan() { });
 
         }
+
         public IActionResult XoaPhongBan(int id)
         {
             var ketQua = false;
@@ -158,29 +159,29 @@ namespace QLNV.Web.Controllers
             HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create(url);
             httpWebRequest.Method = "DELETE";
             var response = httpWebRequest.GetResponse();
-
-            string responseData;
-            Stream responseStream = response.GetResponseStream();
-            try
             {
-                StreamReader streamReader = new StreamReader(responseStream);
+                string responseData;
+                Stream responseStream = response.GetResponseStream();
                 try
                 {
-                    responseData = streamReader.ReadToEnd();
+                    StreamReader streamReader = new StreamReader(responseStream);
+                    try
+                    {
+                        responseData = streamReader.ReadToEnd();
+                    }
+                    finally
+                    {
+                        ((IDisposable)streamReader).Dispose();
+                    }
                 }
                 finally
                 {
-                    ((IDisposable)streamReader).Dispose();
+                    ((IDisposable)responseStream).Dispose();
                 }
+                ketQua = JsonConvert.DeserializeObject<bool>(responseData);
+
+
             }
-            finally
-            {
-                ((IDisposable)responseStream).Dispose();
-            }
-            ketQua = JsonConvert.DeserializeObject<bool>(responseData);
-
-
-
             return RedirectToAction("Index", "PhongBan");
         }
     }
